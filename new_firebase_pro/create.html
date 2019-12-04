@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js quiz</title>
+    <link href="style_2.css" type="text/css" media="(max-width: 767px)" rel="stylesheet" />
+    <link href="style.css" type="text/css" media="(min-width: 766px)" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Quiz App</a>
+                   
+                 <div onClick="show_nav()"><img src="menu.png" class="im"/></div> 
+                  </div>
+                  <div id="my_nav" class="my_nav">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="after_sign.html">Home</a></li>
+                    <li><a href="get_quiz.html">quiz test</a></li>
+                    <li><a href="#">Page 2</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                   <li><a href="#" onClick="signout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                  </ul>
+                </div>
+                </div>
+              </nav>
+        
+              <!-- work start________________________________________ -->
+
+     
+
+     <div id="data1">
+        <h1 style="text-align: center; color:white">create your quiz</h1>
+        <input placeholder="question" id="question" class="inp1" type="text" /><br/><br/>
+
+        <input type="text" class="question" id="option1" placeholder="option1">
+<button class="btn btn-success" onClick="set_answer1()">make answer</button>
+<br/><br/>
+<input type="text" id="option2" class="question" placeholder="option2">
+  <button class="btn btn-success" onClick="set_answer2()">make answer</button>
+<br/><br/>
+
+<button  class="btn btn-danger" onClick="submit()">submit</button>
+<button class="btn btn-primary"onClick="create_new()">create new</button><br/><br/>
+
+<!-- ye check demo hay -->
+        <!-- <button  value="C40fQ1RB7R8xSEa0Tdvp" onClick="demo(this)">click</button> -->
+
+     </div>
+
+     <div id="data2">
+         <h1  style="color:white">create new test</h1>
+        
+         <input placeholder="question" required id="question2" class="inp1" type="text" style="width:400px;" /><br/><br/>
+
+<input type="text" class="question" id="option_1" placeholder="option">
+<button class="btn btn-success" onClick="set_answer3()">make answer</button>  
+<br/><br/>
+
+<input type="text" class="question" id="option_2" placeholder="option">
+<button class="btn btn-success" onClick="set_answer4()">make answer</button>
+<br/><br/>
+<button class="btn btn-success btn-lg" onClick="submit2()">submit</button>
+
+
+<!-- ye check demo hay -->
+        <!-- <button  value="C40fQ1RB7R8xSEa0Tdvp" onClick="demo(this)">click</button> -->
+
+     
+    
+    <!-- parent end -->
+    </div>
+    <!-- firebase scripts -->
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+    
+
+
+
+   <script src="prac_1.js"></script> 
+</body>
+</html>

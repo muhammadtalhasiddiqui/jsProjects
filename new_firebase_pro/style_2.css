@@ -1,0 +1,149 @@
+.my_nav{
+
+    display:none;
+}
+
+
+.brand_logo{
+    height : 100px;
+    width : 100px;
+    margin-bottom: 20px;
+}
+
+.btn_1{
+
+    width:200px;
+    height:50px;
+    border-radius: 1em;
+    margin-top: 100px;
+    
+}
+
+.btn_2{
+
+    width:200px;
+    height:50px;
+    border-radius: 1em;
+    margin-top: 20px;
+    
+}
+
+.im{
+    display:"inline-block";
+  float:right;
+    width:50px;
+}
+
+body {
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat
+   }
+
+   
+   .marks{
+    color:white;
+    margin-left: 20px;
+    
+}
+
+#demo{
+
+ color:white
+}
+
+#one{
+margin:50px
+}
+
+#two{
+ margin:50px;
+ display:none;
+  }
+
+  #three{
+     margin:50px;
+     display:none;
+      }   
+      #four{
+         margin:50px;
+         display:none;
+          }   
+          #five{
+             margin:50px;
+             display:none;
+              }  
+              #data2{
+                  display:none;
+                  text-align: center;
+              }
+              #data1{
+                  text-align: center;
+              }
+
+              .demo{
+
+                 color:white;
+                 margin-left: 20px;
+                }
+                #welcome{
+                 color:red;
+                 margin-left: 20px
+                }
+
+                .param{
+                    margin-top: 20px;
+                    
+                }
+
+                .inp_style{
+                    margin-left: 50px
+                }
+                .question{
+                    border-radius: 1em;
+                    height:30px;
+                    background-color: lightsteelblue;
+                    padding:10px;
+
+                   }
+
+                   .inp1{
+                    border-radius: 1em;
+                    height:30px;
+                    background-color: lightsteelblue;
+                    padding:10px;
+                  width:300px
+                   }
+.my_btn{
+    border-radius: 2em;
+    background-color: skyblue;
+    color: white;
+    width:300px;
+    height:50px;
+    font-size: 20px
+
+}
+#res{
+    display: none
+}
+                  /* loader___________________________________________/ */
+                  .loader {
+                    border: 16px solid #f3f3f3;
+                    border-radius: 50%;
+                    border-top: 16px solid #3498db;
+                    width: 120px;
+                    height: 120px;
+                    margin-left: 30%;
+                    -webkit-animation: spin 2s linear infinite; /* Safari */
+                    animation: spin 2s linear infinite;
+                  }
+                  
+                  /* Safari */
+                  @-webkit-keyframes spin {
+                    0% { -webkit-transform: rotate(0deg); }
+                    100% { -webkit-transform: rotate(360deg); }
+                  }
+                  
+                  @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                  }

@@ -1,0 +1,141 @@
+.brand_logo{
+    height : 100px;
+    width : 100px;
+    margin-bottom: 20px;
+}
+#res{
+    display: none;
+}
+.btn_1{
+
+    width:200px;
+    height:50px;
+    border-radius: 1em;
+    margin-top: 100px;
+    
+}
+
+.btn_2{
+
+    width:200px;
+    height:50px;
+    border-radius: 1em;
+    margin-top: 20px;
+    
+}
+
+.im{
+
+    display:none;
+    
+}
+
+body {
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat
+   }
+
+   .marks{
+       color:white;
+       margin-left: 20px;
+       
+   }
+
+   #demo{
+
+    color:white
+   }
+
+  #one{
+margin:50px
+ }
+
+ #two{
+    margin:50px;
+    display:none;
+     }
+
+     #three{
+        margin:50px;
+        display:none;
+         }   
+         #four{
+            margin:50px;
+            display:none;
+             }   
+             #five{
+                margin:50px;
+                display:none;
+                 }  
+                 #data2{
+                     display:none;
+                 }
+
+                 .demo{
+
+                    color:white;
+                    margin-left: 20px;
+                   }
+                   #welcome{
+                    color:red;
+                    margin-left: 40%
+                   }
+
+                   .param{
+                       margin-top: 20px;
+
+                   }
+                   .inp_style{
+                       margin-left: 20px
+                   }
+                   .question{
+                    border-radius: 1em;
+                    height:30px;
+                    background-color: lightsteelblue;
+                    padding:10px;
+                    /* width:400px */
+                   }
+                   #data1{
+                    text-align: center;
+                }
+                #data2{
+                    text-align: center;
+                }
+                .inp1{
+                    border-radius: 1em;
+                    height:30px;
+                    background-color: lightsteelblue;
+                    padding:10px;
+                    width:400px
+                   }
+                   .my_btn{
+                    border-radius: 2em;
+                    background-color: skyblue;
+                    color: white;
+                    width:400px;
+                    height:50px;
+                    font-size: 20px
+                    
+                }
+                   /* loader___________________________________________/ */
+                   .loader {
+                    border: 16px solid #f3f3f3;
+                    border-radius: 50%;
+                    border-top: 16px solid #3498db;
+                    width: 120px;
+                    height: 120px;
+                    margin-left: 50%;
+                    -webkit-animation: spin 2s linear infinite; /* Safari */
+                    animation: spin 2s linear infinite;
+                  }
+                  
+                  /* Safari */
+                  @-webkit-keyframes spin {
+                    0% { -webkit-transform: rotate(0deg); }
+                    100% { -webkit-transform: rotate(360deg); }
+                  }
+                  
+                  @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                  }

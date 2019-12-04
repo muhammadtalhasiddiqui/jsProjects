@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js quiz</title>
+    <link href="style_2.css" type="text/css" media="(max-width: 767px)" rel="stylesheet" />
+    <link href="style.css" type="text/css" media="(min-width: 766px)" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="time_count()">
+
+<h1 style="color:red;text-align: center"><marquee>Javascript Quiz  max marks:05  passing:2.5</marquee></h1>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="#">Quiz App</a>
+       
+     <div onClick="show_nav()"><img src="menu.png" class="im"/></div> 
+      </div>
+      <div id="my_nav" class="my_nav">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="get_quiz.html">quiz test</a></li>
+        <li><a href="#">Page 2</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#" onClick="signout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- parent --> 
+  
+<div id="one" >
+        <p id="demo"></p> 
+<p class="marks">1. js stands for:</p>
+<br/>
+ <p class="marks">a. <input type="checkbox" onClick="one()" id="q1" value="javascript"/> javascript</p>
+ <p class="marks">b. <input type="checkbox"/> java source</p>
+ <p class="marks">c. <input type="checkbox"/> java sign</p>
+ <p class="marks">d. <input type="checkbox"/> javas sequence</p>
+
+ <button style="float:right;width:150px" onClick="one_()">Next</button>
+<!-- parent end -->
+</div>
+
+<!-- second___________________________________________________________ -->
+
+<div id="two" >
+    <p class="marks">2. which one is correct for js:</p>
+    <br/>
+     <p class="marks">a. <input type="checkbox" />alert="text"</p>
+     <p class="marks">b. <input type="checkbox" onClick="two()" id = "q2" value="alert('text')"/> alert("text")</p>
+     <p class="marks">c. <input type="checkbox"/> Alert("text")</p>
+     <p class="marks">d. <input type="checkbox"/> alert()="text"</p>
+
+     <button style="float:right;width:150px" onClick="two_()">Next</button>
+    
+    <!-- parent end -->
+    </div>
+    
+<!-- third_______________________________________ -->
+<div id="three" >
+    <p class="marks">3. how to declear varible in js:</p>
+    <br/>
+     <p class="marks">a. <input type="checkbox" onClick="three()" id = "q3" value="var a='text';"/>var a="text"</p>
+     <p class="marks">b. <input type="checkbox" /> var("text")</p>
+     <p class="marks">c. <input type="checkbox"/> v("text")</p>
+     <p class="marks">d. <input type="checkbox"/> varible="text"</p>
+
+     <button style="float:right;width:150px" onClick="three_()">Next</button>
+    
+    <!-- parent end -->
+    </div>
+<!-- four_______________________________ -->
+<div id="four" >
+    <p class="marks">4. how to declear function in js:</p>
+    <br/>
+     <p class="marks">a. <input type="checkbox"/>fun name(){}</p>
+     <p class="marks">b. <input type="checkbox" />name(){}</p>
+     <p class="marks">c. <input type="checkbox" onClick="four()" id = "q4" value="function name(){}"/> function name(){}</p>
+     <p class="marks">d. <input type="checkbox"/> function name="text"</p>
+
+     <button style="float:right;width:150px" onClick="four_()" >Next</button>
+    
+    <!-- parent end -->
+    </div>
+
+    <!-- five_______________________________________ -->
+    <div id="five" >
+        <p class="marks">5. how to declear function in js:</p>
+        <br/>
+         <p class="marks">a. <input type="checkbox"/>fun name(){}</p>
+         <p class="marks">b. <input type="checkbox" />name(){}</p>
+         <p class="marks">c. <input type="checkbox" onClick="five()" id = "q5" value="function name(){}"/> function name(){}</p>
+         <p class="marks">d. <input type="checkbox"/> function name="text"</p>
+         
+         <button style="float:right;width:150px" onClick="get_result()">Get Result</button>
+    
+        
+        <!-- parent end -->
+        </div>
+        <h1 id="res"></h1>
+
+
+    <!-- firebase scripts -->
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+    
+
+
+
+   <script src="prac_1.js"></script> 
+</body>
+</html>
